@@ -1,0 +1,492 @@
+# Project information
+site_name: Daily Coding Problem
+site_description: 🗓️ Solutions to the problems from Daily Coding Problem.
+site_author: Hsins
+site_url: https://hsins.github.io/Daily-Coding-Problem/
+
+# Repository
+repo_name: Hsins/Daily-Coding-Problem
+repo_url: https://github.com/Hsins/Daily-Coding-Problem
+edit_uri: edit/docs/docs/
+
+# Copyright
+copyright: Copyright &copy; 2020 - 2021 Hsins
+
+# Configuration
+theme:
+  name: material
+  custom_dir: overrides
+
+  static_templates:
+    - 404.html
+
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+  language: zh-Hant
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+
+  palette:
+    # Light mode
+    - indigo: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: teal
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: red
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  icon:
+    repo: fontawesome/brands/github-square
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
+  include_search_page: false
+  search_index_only: true
+
+# Plugins
+plugins:
+  - search
+
+# Extras
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Hsins
+
+# Contents
+nav:
+  - 主頁: index.md
+  - 簡介:
+      - 關於本站: intro/index.md
+      - 格式指南: intro/styleguide.md
+      - 題目列表: intro/problems.md
+      - 常見問題: intro/faq.md
+  - 題解:
+      - 001. Two Sum: problem/two-sum.md
+      - 002. Product of Array Except Self: problem/product-of-array-except-self.md
+      - 003. Serialize and Deserialize Binary Tree: problem/serialize-and-deserialize-binary-tree.md
+      - 004. First Missing Positive: problem/first-missing-positive.md
+      - 005. Function car, cdr and cons: problem/function-car-cdr-and-cons.md
+      - 006. XOR Linked List: problem/xor-linked-list.md
+      - 007. Decode Ways: problem/decode-ways.md
+      - 008. Count Univalue Subtrees: problem/count-univalue-subtrees.md
+      - 009. Maximum Sum of Non-Adjacent Elements: problem/maximum-sum-of-non-adjacent-elements.md
+      - 010. Job Scheduler: problem/job-scheduler.md
+      - 011. Search Autocomplete: problem/search-autocomplete.md
+      - 012. Climbing Stairs: problem/climbing-stairs.md
+      - 013. Longest Substring with At Most K Distinct Characters: problem/longest-substring-with-at-most-k-distinct-characters.md
+      - 014. Estimate π using Monte Carlo Method: problem/estimate-pi-using-monte-carlo-method.md
+      - 015. Reservoir Sampling: problem/reservoir-sampling.md
+      - 016. Order Logger API Design: problem/order-logger-api-design.md
+      - 017. Longest Absolute File Path: problem/longest-absolute-file-path.md
+      - 018. Sliding Window Maximum: problem/sliding-window-maximum.md
+      - 019. Paint House: problem/paint-house.md
+      - 020. WORK IN PROGRESS: problem/index.md
+      - 021. WORK IN PROGRESS: problem/index.md
+      - 022. WORK IN PROGRESS: problem/index.md
+      - 023. WORK IN PROGRESS: problem/index.md
+      - 024. WORK IN PROGRESS: problem/index.md
+      - 025. WORK IN PROGRESS: problem/index.md
+      - 026. WORK IN PROGRESS: problem/index.md
+      - 027. WORK IN PROGRESS: problem/index.md
+      - 028. WORK IN PROGRESS: problem/index.md
+      - 029. WORK IN PROGRESS: problem/index.md
+      - 030. WORK IN PROGRESS: problem/index.md
+      - 031. WORK IN PROGRESS: problem/index.md
+      - 032. WORK IN PROGRESS: problem/index.md
+      - 033. WORK IN PROGRESS: problem/index.md
+      - 034. WORK IN PROGRESS: problem/index.md
+      - 035. WORK IN PROGRESS: problem/index.md
+      - 036. WORK IN PROGRESS: problem/index.md
+      - 037. WORK IN PROGRESS: problem/index.md
+      - 038. WORK IN PROGRESS: problem/index.md
+      - 039. WORK IN PROGRESS: problem/index.md
+      - 040. WORK IN PROGRESS: problem/index.md
+      - 041. WORK IN PROGRESS: problem/index.md
+      - 042. WORK IN PROGRESS: problem/index.md
+      - 043. WORK IN PROGRESS: problem/index.md
+      - 044. WORK IN PROGRESS: problem/index.md
+      - 045. WORK IN PROGRESS: problem/index.md
+      - 046. WORK IN PROGRESS: problem/index.md
+      - 047. WORK IN PROGRESS: problem/index.md
+      - 048. WORK IN PROGRESS: problem/index.md
+      - 049. WORK IN PROGRESS: problem/index.md
+      - 050. WORK IN PROGRESS: problem/index.md
+      - 051. WORK IN PROGRESS: problem/index.md
+      - 052. WORK IN PROGRESS: problem/index.md
+      - 053. WORK IN PROGRESS: problem/index.md
+      - 054. WORK IN PROGRESS: problem/index.md
+      - 055. WORK IN PROGRESS: problem/index.md
+      - 056. WORK IN PROGRESS: problem/index.md
+      - 057. WORK IN PROGRESS: problem/index.md
+      - 058. WORK IN PROGRESS: problem/index.md
+      - 059. WORK IN PROGRESS: problem/index.md
+      - 060. Partition Equal Subset Sum: problem/partition-equal-subset-sum.md
+      - 061. WORK IN PROGRESS: problem/index.md
+      - 062. WORK IN PROGRESS: problem/index.md
+      - 063. WORK IN PROGRESS: problem/index.md
+      - 064. WORK IN PROGRESS: problem/index.md
+      - 065. WORK IN PROGRESS: problem/index.md
+      - 066. WORK IN PROGRESS: problem/index.md
+      - 067. WORK IN PROGRESS: problem/index.md
+      - 068. WORK IN PROGRESS: problem/index.md
+      - 069. WORK IN PROGRESS: problem/index.md
+      - 070. WORK IN PROGRESS: problem/index.md
+      - 071. WORK IN PROGRESS: problem/index.md
+      - 072. WORK IN PROGRESS: problem/index.md
+      - 073. WORK IN PROGRESS: problem/index.md
+      - 074. WORK IN PROGRESS: problem/index.md
+      - 075. WORK IN PROGRESS: problem/index.md
+      - 076. WORK IN PROGRESS: problem/index.md
+      - 077. Merge Intervals: problem/merge-intervals.md
+      - 078. WORK IN PROGRESS: problem/index.md
+      - 079. WORK IN PROGRESS: problem/index.md
+      - 080. WORK IN PROGRESS: problem/index.md
+      - 081. WORK IN PROGRESS: problem/index.md
+      - 082. WORK IN PROGRESS: problem/index.md
+      - 083. WORK IN PROGRESS: problem/index.md
+      - 084. WORK IN PROGRESS: problem/index.md
+      - 085. WORK IN PROGRESS: problem/index.md
+      - 086. WORK IN PROGRESS: problem/index.md
+      - 087. WORK IN PROGRESS: problem/index.md
+      - 088. WORK IN PROGRESS: problem/index.md
+      - 089. WORK IN PROGRESS: problem/index.md
+      - 090. WORK IN PROGRESS: problem/index.md
+      - 091. WORK IN PROGRESS: problem/index.md
+      - 092. WORK IN PROGRESS: problem/index.md
+      - 093. WORK IN PROGRESS: problem/index.md
+      - 094. WORK IN PROGRESS: problem/index.md
+      - 095. WORK IN PROGRESS: problem/index.md
+      - 096. WORK IN PROGRESS: problem/index.md
+      - 097. WORK IN PROGRESS: problem/index.md
+      - 098. WORK IN PROGRESS: problem/index.md
+      - 099. WORK IN PROGRESS: problem/index.md
+      - 100. WORK IN PROGRESS: problem/index.md
+      - 101. WORK IN PROGRESS: problem/index.md
+      - 102. WORK IN PROGRESS: problem/index.md
+      - 103. WORK IN PROGRESS: problem/index.md
+      - 104. WORK IN PROGRESS: problem/index.md
+      - 105. WORK IN PROGRESS: problem/index.md
+      - 106. WORK IN PROGRESS: problem/index.md
+      - 107. WORK IN PROGRESS: problem/index.md
+      - 108. WORK IN PROGRESS: problem/index.md
+      - 109. WORK IN PROGRESS: problem/index.md
+      - 110. WORK IN PROGRESS: problem/index.md
+      - 111. WORK IN PROGRESS: problem/index.md
+      - 112. WORK IN PROGRESS: problem/index.md
+      - 113. WORK IN PROGRESS: problem/index.md
+      - 114. WORK IN PROGRESS: problem/index.md
+      - 115. WORK IN PROGRESS: problem/index.md
+      - 116. WORK IN PROGRESS: problem/index.md
+      - 117. WORK IN PROGRESS: problem/index.md
+      - 118. WORK IN PROGRESS: problem/index.md
+      - 119. WORK IN PROGRESS: problem/index.md
+      - 120. WORK IN PROGRESS: problem/index.md
+      - 121. WORK IN PROGRESS: problem/index.md
+      - 122. WORK IN PROGRESS: problem/index.md
+      - 123. WORK IN PROGRESS: problem/index.md
+      - 124. WORK IN PROGRESS: problem/index.md
+      - 125. WORK IN PROGRESS: problem/index.md
+      - 126. WORK IN PROGRESS: problem/index.md
+      - 127. WORK IN PROGRESS: problem/index.md
+      - 128. WORK IN PROGRESS: problem/index.md
+      - 129. WORK IN PROGRESS: problem/index.md
+      - 130. WORK IN PROGRESS: problem/index.md
+      - 131. WORK IN PROGRESS: problem/index.md
+      - 132. WORK IN PROGRESS: problem/index.md
+      - 133. WORK IN PROGRESS: problem/index.md
+      - 134. WORK IN PROGRESS: problem/index.md
+      - 135. WORK IN PROGRESS: problem/index.md
+      - 136. WORK IN PROGRESS: problem/index.md
+      - 137. WORK IN PROGRESS: problem/index.md
+      - 138. WORK IN PROGRESS: problem/index.md
+      - 139. WORK IN PROGRESS: problem/index.md
+      - 140. WORK IN PROGRESS: problem/index.md
+      - 141. WORK IN PROGRESS: problem/index.md
+      - 142. WORK IN PROGRESS: problem/index.md
+      - 143. WORK IN PROGRESS: problem/index.md
+      - 144. WORK IN PROGRESS: problem/index.md
+      - 145. WORK IN PROGRESS: problem/index.md
+      - 146. WORK IN PROGRESS: problem/index.md
+      - 147. WORK IN PROGRESS: problem/index.md
+      - 148. WORK IN PROGRESS: problem/index.md
+      - 149. WORK IN PROGRESS: problem/index.md
+      - 150. WORK IN PROGRESS: problem/index.md
+      - 151. WORK IN PROGRESS: problem/index.md
+      - 152. WORK IN PROGRESS: problem/index.md
+      - 153. WORK IN PROGRESS: problem/index.md
+      - 154. WORK IN PROGRESS: problem/index.md
+      - 155. WORK IN PROGRESS: problem/index.md
+      - 156. WORK IN PROGRESS: problem/index.md
+      - 157. WORK IN PROGRESS: problem/index.md
+      - 158. WORK IN PROGRESS: problem/index.md
+      - 159. WORK IN PROGRESS: problem/index.md
+      - 160. WORK IN PROGRESS: problem/index.md
+      - 161. WORK IN PROGRESS: problem/index.md
+      - 162. WORK IN PROGRESS: problem/index.md
+      - 163. WORK IN PROGRESS: problem/index.md
+      - 164. WORK IN PROGRESS: problem/index.md
+      - 165. WORK IN PROGRESS: problem/index.md
+      - 166. WORK IN PROGRESS: problem/index.md
+      - 167. WORK IN PROGRESS: problem/index.md
+      - 168. WORK IN PROGRESS: problem/index.md
+      - 169. WORK IN PROGRESS: problem/index.md
+      - 170. WORK IN PROGRESS: problem/index.md
+      - 171. WORK IN PROGRESS: problem/index.md
+      - 172. WORK IN PROGRESS: problem/index.md
+      - 173. WORK IN PROGRESS: problem/index.md
+      - 174. WORK IN PROGRESS: problem/index.md
+      - 175. WORK IN PROGRESS: problem/index.md
+      - 176. WORK IN PROGRESS: problem/index.md
+      - 177. WORK IN PROGRESS: problem/index.md
+      - 178. WORK IN PROGRESS: problem/index.md
+      - 179. WORK IN PROGRESS: problem/index.md
+      - 180. WORK IN PROGRESS: problem/index.md
+      - 181. WORK IN PROGRESS: problem/index.md
+      - 182. WORK IN PROGRESS: problem/index.md
+      - 183. WORK IN PROGRESS: problem/index.md
+      - 184. WORK IN PROGRESS: problem/index.md
+      - 185. WORK IN PROGRESS: problem/index.md
+      - 186. WORK IN PROGRESS: problem/index.md
+      - 187. WORK IN PROGRESS: problem/index.md
+      - 188. WORK IN PROGRESS: problem/index.md
+      - 189. WORK IN PROGRESS: problem/index.md
+      - 190. WORK IN PROGRESS: problem/index.md
+      - 191. WORK IN PROGRESS: problem/index.md
+      - 192. WORK IN PROGRESS: problem/index.md
+      - 193. WORK IN PROGRESS: problem/index.md
+      - 194. WORK IN PROGRESS: problem/index.md
+      - 195. WORK IN PROGRESS: problem/index.md
+      - 196. WORK IN PROGRESS: problem/index.md
+      - 197. WORK IN PROGRESS: problem/index.md
+      - 198. WORK IN PROGRESS: problem/index.md
+      - 199. WORK IN PROGRESS: problem/index.md
+      - 200. WORK IN PROGRESS: problem/index.md
+      - 201. WORK IN PROGRESS: problem/index.md
+      - 202. WORK IN PROGRESS: problem/index.md
+      - 203. WORK IN PROGRESS: problem/index.md
+      - 204. WORK IN PROGRESS: problem/index.md
+      - 205. WORK IN PROGRESS: problem/index.md
+      - 206. WORK IN PROGRESS: problem/index.md
+      - 207. WORK IN PROGRESS: problem/index.md
+      - 208. WORK IN PROGRESS: problem/index.md
+      - 209. WORK IN PROGRESS: problem/index.md
+      - 210. Longest Collatz Sequence: problem/longest-collatz-sequence.md
+      - 211. WORK IN PROGRESS: problem/index.md
+      - 212. WORK IN PROGRESS: problem/index.md
+      - 213. WORK IN PROGRESS: problem/index.md
+      - 214. Longest Consecutive Run of 1s in Binary: problem/longest-consecutive-run-of-1s-in-binary.md
+      - 215. WORK IN PROGRESS: problem/index.md
+      - 216. WORK IN PROGRESS: problem/index.md
+      - 217. WORK IN PROGRESS: problem/index.md
+      - 218. WORK IN PROGRESS: problem/index.md
+      - 219. WORK IN PROGRESS: problem/index.md
+      - 220. WORK IN PROGRESS: problem/index.md
+      - 221. WORK IN PROGRESS: problem/index.md
+      - 222. WORK IN PROGRESS: problem/index.md
+      - 223. WORK IN PROGRESS: problem/index.md
+      - 224. WORK IN PROGRESS: problem/index.md
+      - 225. WORK IN PROGRESS: problem/index.md
+      - 226. WORK IN PROGRESS: problem/index.md
+      - 227. WORK IN PROGRESS: problem/index.md
+      - 228. WORK IN PROGRESS: problem/index.md
+      - 229. WORK IN PROGRESS: problem/index.md
+      - 230. WORK IN PROGRESS: problem/index.md
+      - 231. WORK IN PROGRESS: problem/index.md
+      - 232. WORK IN PROGRESS: problem/index.md
+      - 233. WORK IN PROGRESS: problem/index.md
+      - 234. WORK IN PROGRESS: problem/index.md
+      - 235. WORK IN PROGRESS: problem/index.md
+      - 236. WORK IN PROGRESS: problem/index.md
+      - 237. WORK IN PROGRESS: problem/index.md
+      - 238. WORK IN PROGRESS: problem/index.md
+      - 239. WORK IN PROGRESS: problem/index.md
+      - 240. WORK IN PROGRESS: problem/index.md
+      - 241. WORK IN PROGRESS: problem/index.md
+      - 242. WORK IN PROGRESS: problem/index.md
+      - 243. WORK IN PROGRESS: problem/index.md
+      - 244. WORK IN PROGRESS: problem/index.md
+      - 245. WORK IN PROGRESS: problem/index.md
+      - 246. WORK IN PROGRESS: problem/index.md
+      - 247. WORK IN PROGRESS: problem/index.md
+      - 248. WORK IN PROGRESS: problem/index.md
+      - 249. WORK IN PROGRESS: problem/index.md
+      - 250. WORK IN PROGRESS: problem/index.md
+      - 251. WORK IN PROGRESS: problem/index.md
+      - 252. WORK IN PROGRESS: problem/index.md
+      - 253. WORK IN PROGRESS: problem/index.md
+      - 254. WORK IN PROGRESS: problem/index.md
+      - 255. WORK IN PROGRESS: problem/index.md
+      - 256. WORK IN PROGRESS: problem/index.md
+      - 257. WORK IN PROGRESS: problem/index.md
+      - 258. WORK IN PROGRESS: problem/index.md
+      - 259. WORK IN PROGRESS: problem/index.md
+      - 260. WORK IN PROGRESS: problem/index.md
+      - 261. WORK IN PROGRESS: problem/index.md
+      - 262. WORK IN PROGRESS: problem/index.md
+      - 263. WORK IN PROGRESS: problem/index.md
+      - 264. WORK IN PROGRESS: problem/index.md
+      - 265. WORK IN PROGRESS: problem/index.md
+      - 266. WORK IN PROGRESS: problem/index.md
+      - 267. WORK IN PROGRESS: problem/index.md
+      - 268. WORK IN PROGRESS: problem/index.md
+      - 269. WORK IN PROGRESS: problem/index.md
+      - 270. WORK IN PROGRESS: problem/index.md
+      - 271. WORK IN PROGRESS: problem/index.md
+      - 272. WORK IN PROGRESS: problem/index.md
+      - 273. WORK IN PROGRESS: problem/index.md
+      - 274. WORK IN PROGRESS: problem/index.md
+      - 275. WORK IN PROGRESS: problem/index.md
+      - 276. WORK IN PROGRESS: problem/index.md
+      - 277. WORK IN PROGRESS: problem/index.md
+      - 278. WORK IN PROGRESS: problem/index.md
+      - 279. WORK IN PROGRESS: problem/index.md
+      - 280. WORK IN PROGRESS: problem/index.md
+      - 281. WORK IN PROGRESS: problem/index.md
+      - 282. WORK IN PROGRESS: problem/index.md
+      - 283. WORK IN PROGRESS: problem/index.md
+      - 284. WORK IN PROGRESS: problem/index.md
+      - 285. WORK IN PROGRESS: problem/index.md
+      - 286. WORK IN PROGRESS: problem/index.md
+      - 287. WORK IN PROGRESS: problem/index.md
+      - 288. WORK IN PROGRESS: problem/index.md
+      - 289. WORK IN PROGRESS: problem/index.md
+      - 290. WORK IN PROGRESS: problem/index.md
+      - 291. WORK IN PROGRESS: problem/index.md
+      - 292. WORK IN PROGRESS: problem/index.md
+      - 293. WORK IN PROGRESS: problem/index.md
+      - 294. WORK IN PROGRESS: problem/index.md
+      - 295. WORK IN PROGRESS: problem/index.md
+      - 296. WORK IN PROGRESS: problem/index.md
+      - 297. WORK IN PROGRESS: problem/index.md
+      - 298. WORK IN PROGRESS: problem/index.md
+      - 299. WORK IN PROGRESS: problem/index.md
+      - 300. WORK IN PROGRESS: problem/index.md
+      - 301. WORK IN PROGRESS: problem/index.md
+      - 302. WORK IN PROGRESS: problem/index.md
+      - 303. WORK IN PROGRESS: problem/index.md
+      - 304. WORK IN PROGRESS: problem/index.md
+      - 305. WORK IN PROGRESS: problem/index.md
+      - 306. WORK IN PROGRESS: problem/index.md
+      - 307. WORK IN PROGRESS: problem/index.md
+      - 308. WORK IN PROGRESS: problem/index.md
+      - 309. WORK IN PROGRESS: problem/index.md
+      - 310. WORK IN PROGRESS: problem/index.md
+      - 311. WORK IN PROGRESS: problem/index.md
+      - 312. WORK IN PROGRESS: problem/index.md
+      - 313. WORK IN PROGRESS: problem/index.md
+      - 314. WORK IN PROGRESS: problem/index.md
+      - 315. WORK IN PROGRESS: problem/index.md
+      - 316. WORK IN PROGRESS: problem/index.md
+      - 317. WORK IN PROGRESS: problem/index.md
+      - 318. WORK IN PROGRESS: problem/index.md
+      - 319. WORK IN PROGRESS: problem/index.md
+      - 320. WORK IN PROGRESS: problem/index.md
+      - 321. WORK IN PROGRESS: problem/index.md
+      - 322. WORK IN PROGRESS: problem/index.md
+      - 323. WORK IN PROGRESS: problem/index.md
+      - 324. WORK IN PROGRESS: problem/index.md
+      - 325. WORK IN PROGRESS: problem/index.md
+      - 326. WORK IN PROGRESS: problem/index.md
+      - 327. WORK IN PROGRESS: problem/index.md
+      - 328. WORK IN PROGRESS: problem/index.md
+      - 329. WORK IN PROGRESS: problem/index.md
+      - 330. WORK IN PROGRESS: problem/index.md
+      - 331. WORK IN PROGRESS: problem/index.md
+      - 332. WORK IN PROGRESS: problem/index.md
+      - 333. WORK IN PROGRESS: problem/index.md
+      - 334. WORK IN PROGRESS: problem/index.md
+      - 335. WORK IN PROGRESS: problem/index.md
+      - 336. WORK IN PROGRESS: problem/index.md
+      - 337. WORK IN PROGRESS: problem/index.md
+      - 338. WORK IN PROGRESS: problem/index.md
+      - 339. WORK IN PROGRESS: problem/index.md
+      - 340. WORK IN PROGRESS: problem/index.md
+      - 341. WORK IN PROGRESS: problem/index.md
+      - 342. WORK IN PROGRESS: problem/index.md
+      - 343. WORK IN PROGRESS: problem/index.md
+      - 344. WORK IN PROGRESS: problem/index.md
+      - 345. WORK IN PROGRESS: problem/index.md
+      - 346. WORK IN PROGRESS: problem/index.md
+      - 347. WORK IN PROGRESS: problem/index.md
+      - 348. WORK IN PROGRESS: problem/index.md
+      - 349. WORK IN PROGRESS: problem/index.md
+      - 350. WORK IN PROGRESS: problem/index.md
+      - 351. WORK IN PROGRESS: problem/index.md
+      - 352. WORK IN PROGRESS: problem/index.md
+      - 353. WORK IN PROGRESS: problem/index.md
+      - 354. WORK IN PROGRESS: problem/index.md
+      - 355. WORK IN PROGRESS: problem/index.md
+      - 356. WORK IN PROGRESS: problem/index.md
+      - 357. WORK IN PROGRESS: problem/index.md
+      - 358. WORK IN PROGRESS: problem/index.md
+      - 359. WORK IN PROGRESS: problem/index.md
+      - 360. WORK IN PROGRESS: problem/index.md
+      - 361. WORK IN PROGRESS: problem/index.md
+      - 362. WORK IN PROGRESS: problem/index.md
+      - 363. WORK IN PROGRESS: problem/index.md
+      - 364. WORK IN PROGRESS: problem/index.md
+      - 365. WORK IN PROGRESS: problem/index.md
+  - 筆記: note/index.md
+
+# Extensions
+markdown_extensions:
+  - meta
+  - abbr
+  - admonition
+  - footnotes
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.keys
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_javascript:
+  # MathJax
+  - extra/javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  # Tables
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - extra/javascripts/tables.js
+
+extra_css:
+  - extra/stylesheets/custom.css
